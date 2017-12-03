@@ -1,6 +1,6 @@
 # c4software Custom Keyboard
 
-Default layout with some derivation.
+Layout for Bépo Dev
 
 ```
 /* Native BepoDev for compatible computer
