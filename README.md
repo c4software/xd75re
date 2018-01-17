@@ -6,6 +6,5 @@ Set of ressources for build and customizing the XD75Re keyboard
 - [Original Flashtools (Windows)](./flash_xd75_officiel_tools_windows/)
 - Layout
 	- [Default Layout](./layout/default)
-	- [C4software Layout](./layout/c4software_qwerty)
 	- [C4software Bépo dev Layout](./layout/c4software_bepo)
 
