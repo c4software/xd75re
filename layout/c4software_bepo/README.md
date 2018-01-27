@@ -1,4 +1,6 @@
-# Build with Docker
+# Compilation avec Docker
+
+Adaptation du layout Bépo pour le XD75RE
 
 ```sh
 $ git clone https://github.com/qmk/qmk_firmware.git
