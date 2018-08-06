@@ -110,7 +110,7 @@
       "c": "#8a8787"
     },
     "Bs",
-    "Enter",
+    "Bs",
     {
       "c": "#cccccc"
     },
@@ -152,8 +152,8 @@
       "c": "#8a8787",
       "t": "#000000"
     },
-    "Bs",
-    "Enter",
+    "Pg Up",
+    "Pg Down",
     {
       "c": "#cccccc"
     },
@@ -173,8 +173,8 @@
     "Alt",
     "Fn",
     "Gui",
-    "Space",
-    "Space",
+    "Enter",
+    "Enter",
     {
       "c": "#372BFA"
     },
