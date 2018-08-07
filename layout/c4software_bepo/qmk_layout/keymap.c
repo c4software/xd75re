@@ -28,20 +28,20 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+-----------------|
  * | TAB    | B      | E_ACUT | P      | O      | $      | E_GRAV | DEL    | E_CIRC | V      | D      | L      | J      | Z      | C_CEDIL|
  * |--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+-----------------+--------|
- * | RALT   | A      | U      | I      | E      | ,      | BACKSP | ENTER  | C      | T      | S      | R      | N      | M      | W      |
+ * | RALT   | A      | U      | I      | E      | ,      | KC_WH_U| BACKSP | C      | T      | S      | R      | N      | M      | W      |
  * |--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------------------------+--------|
- * | LSHIFT | A_GRAV | Y      | X      | .      | K      | BACKSP | ENTER  | ’      | Q      | G      | H      | F      | UP     | RSHIFT |
+ * | LSHIFT | A_GRAV | Y      | X      | .      | K      | KC_WH_D| HOME   | ’      | Q      | G      | H      | F      | UP     | RSHIFT |
  * |--------+--------+--------+--------+--------+-----------------+--------+--------+--------+--------+-----------------+--------+--------|
- * | LALT   | LCTRL  | FN     | LGUI   | SPACE  | SPACE  | RALT   | RALT   | SPACE  | SPACE  | RGUI   | FN     | LEFT   | DOWN   | RIGHT  |
+ * | LALT   | LCTRL  | FN     | LGUI   | ENTER  | ENTER  | RALT   | RALT   | SPACE  | SPACE  | RGUI   | FN     | LEFT   | DOWN   | RIGHT  |
  * '--------------------------------------------------------------------------------------------------------------------------------------'
  */
 
  [_BP] = { /* BepoDev */
   { KC_ESC,  BP_DQOT,    BP_LGIL,    BP_RGIL, BP_LPRN, BP_RPRN,    BP_PERCENT, KC_VOLD, KC_VOLU, BP_AT,   BP_PLUS, BP_MINUS, BP_SLASH, BP_ASTR, BP_EQUAL },
   { KC_TAB,  BP_B,       BP_E_ACUTE, BP_P,    BP_O,    BP_DOLLAR,  BP_E_GRAVE, KC_DEL,  BP_DCRC, BP_V,    BP_D,    BP_L,     BP_J,     BP_Z,    BP_CCED  },
-  { KC_RALT, BP_A,       BP_U,       BP_I,    BP_E,    BP_COMMA,   KC_BSPC,    KC_ENT,  BP_C,    BP_T,    BP_S,    BP_R,     BP_N,     BP_M,    BP_W     },
-  { KC_LSFT, BP_A_GRAVE, BP_Y,       BP_X,    BP_DOT,  BP_K,       KC_BSPC,    KC_ENT,  BP_APOS, BP_Q,    BP_G,    BP_H,     BP_F,     KC_UP,   KC_RSFT  },
-  { KC_LALT, KC_LCTL,    MO(_FN),    KC_LGUI, KC_SPC,  KC_SPC,     KC_RALT,    KC_RALT, KC_SPC,  KC_SPC,  KC_RGUI, MO(_FN),  KC_LEFT,  KC_DOWN, KC_RGHT  },
+  { KC_RALT, BP_A,       BP_U,       BP_I,    BP_E,    BP_COMMA,   KC_WH_U,    KC_BSPC, BP_C,    BP_T,    BP_S,    BP_R,     BP_N,     BP_M,    BP_W     },
+  { KC_LSFT, BP_A_GRAVE, BP_Y,       BP_X,    BP_DOT,  BP_K,       KC_WH_D,    KC_HOME, BP_APOS, BP_Q,    BP_G,    BP_H,     BP_F,     KC_UP,   KC_RSFT  },
+  { KC_LALT, KC_LCTL,    MO(_FN),    KC_LGUI, KC_ENT,  KC_ENT,     KC_RALT,    KC_RALT, KC_SPC,  KC_SPC,  KC_RGUI, MO(_FN),  KC_LEFT,  KC_DOWN, KC_RGHT  },
  },
 
 /* FUNCTION
