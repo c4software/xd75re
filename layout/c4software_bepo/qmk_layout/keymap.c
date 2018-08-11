@@ -32,7 +32,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------|
  * | LSHIFT | A_GRAVE| Y      | X      | .      | K      |        | ’      | Q      | G      | H      | F      | RALT   | UP     | RSHIFT |
  * |--------+--------+--------+--------+--------+-----------------+--------+--------+--------+--------+--------+--------+--------+--------|
- * | LCTRL  | LALT   | FN     | LGUI   | ENTER  | DEL    | LEFT   | RIGHT  | BACKSP | SPACE  | RGUI   | FN     | LEFT   | DOWN   | RIGHT  |
+ * | LCTRL  | LALT   | FN     | LGUI   | ENTER  | DEL    |        | RALT   | BACKSP | SPACE  | RGUI   | FN     | LEFT   | DOWN   | RIGHT  |
  * '--------------------------------------------------------------------------------------------------------------------------------------'
  */
 
@@ -41,7 +41,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   { KC_TAB,  BP_B,       BP_E_ACUTE, BP_P,    BP_O,    BP_E_GRAVE, BP_DOLLAR,  BP_DCRC, BP_V,    BP_D,    BP_L,    BP_J,     BP_Z,    BP_CCED,  KC_DEL   },
   { KC_RALT, BP_A,       BP_U,       BP_I,    BP_E,    BP_COMMA,   KC_TRNS,    BP_C,    BP_T,    BP_S,    BP_R,    BP_N,     BP_M,    BP_W,     KC_ENT   },
   { KC_LSFT, BP_A_GRAVE, BP_Y,       BP_X,    BP_DOT,  BP_K,       KC_TRNS,    BP_APOS, BP_Q,    BP_G,    BP_H,    BP_F,     KC_RALT, KC_UP,    KC_RSFT  },
-  { KC_LCTL, KC_LALT,    MO(_FN),    KC_LGUI, KC_ENT,  KC_DEL,     KC_LEFT,    KC_RGHT, KC_BSPC, KC_SPC,  KC_RGUI, MO(_FN), KC_LEFT,  KC_DOWN,  KC_RGHT  },
+  { KC_LCTL, KC_LALT,    MO(_FN),    KC_LGUI, KC_ENT,  KC_DEL,     KC_TRNS,    KC_RALT, KC_BSPC, KC_SPC,  KC_RGUI, MO(_FN), KC_LEFT,  KC_DOWN,  KC_RGHT  },
  },
 
 /* FUNCTION
